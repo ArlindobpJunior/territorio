@@ -2,8 +2,8 @@
   --color-white: #fff;
   --color-light: #f4f4f4;
   --color-black: #141414;
-  --color-blue: #1b0ceb;
-  --color-blue-light: #dff6ff;
+  --color-primary: #36056d;
+  --color-primary-light: #edd7f8;
 
   --transition: all 300ms ease;
 }
@@ -32,6 +32,11 @@ h1 {
 
 p {
   line-height: 1rem;
+  font-size: 0.8rem;
+}
+
+a {
+  font-weight: bold;
 }
 
 .container {
@@ -46,9 +51,8 @@ section {
 }
 
 section h1 {
-  text-align: center;
   display: block;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 img {
@@ -59,14 +63,14 @@ img {
   padding: 1rem 3rem;
   font-size: 1rem;
   color: var(--color-white);
-  background: var(--color-blue);
+  background: var(--color-primary);
   display: inline-block;
   margin: 1px solid;
   transition: var(--transition);
 }
 
 .btn:hover {
-  background: var(--color-blue-light);
+  background: var(--color-primary-light);
 }
 
 /* ========================= SECTION NUMEROS */
@@ -83,7 +87,7 @@ section.numeros .container .numero .items.show-items {
 }
 
 section.numeros .numero .head {
-  background: var(--color-blue);
+  background: var(--color-primary);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,7 +108,7 @@ section.numeros .numero .items .item .tel-nome {
 }
 
 section.numeros .numero .items .item {
-  background: var(--color-blue-light);
-  padding: 0.5rem 1.5rem;
+  background: var(--color-primary-light);
+  padding: 0.5rem 1rem;
   margin-bottom: 0.5rem;
 }
